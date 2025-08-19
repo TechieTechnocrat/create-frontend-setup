@@ -1,0 +1,13 @@
+{
+  "name": "create-frontend-setup",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": { "create-frontend-setup": "bin/cli.mjs" },
+  "files": ["bin","src","templates"],
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "execa": "^9.3.0",
+    "fs-extra": "^11.2.0"
+  }
+}
